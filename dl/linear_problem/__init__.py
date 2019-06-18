@@ -1,4 +1,5 @@
 # import Pulp
+# http://benalexkeen.com/linear-programming-with-python-and-pulp/
 
 from pulp import *
 
@@ -40,3 +41,7 @@ for v in prob.variables():
 print("Total Health that can be restored = ", value(prob.objective))
 # Output=
 # Total Health that can be restored =  155.0
+def main():
+    print("main")
+if __name__ == '__main__':
+    main()
